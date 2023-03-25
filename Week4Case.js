@@ -78,12 +78,6 @@ console.log(`Rata index Genap : ${averageGenap}`);
 let averageGanjil = totalGanjil / indexGanjil.length;
 console.log(`Rata index Ganjil : ${averageGanjil}`);
 
-// /* -Bandingkan kedua buah array, contoh
-//       -Min lebih besar array genap
-//       -Max lebih besar array ganjil
-//       -Total memiliki nilai sama antara array genap dan ganjil
-//       -Rata rata lebih besar array ganjil
-// */
 // Perbandingan nilai Min dan Max pada array genap dan ganjil
 function comparisonIndexMinMax() {
 	if (minNum > minNum1) console.log(`Nilai angka Min =  ${minNum1}`);
@@ -92,5 +86,7 @@ function comparisonIndexMinMax() {
 	else console.log(`Nilai anga Max = ${maxNum1}`);
 }
 comparisonIndexMinMax();
+
+// File ini telah dipush ke link github: https://github.com/Sonnycode/RakaminWeek4.git
 
 
